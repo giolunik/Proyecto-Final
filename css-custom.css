@@ -1,14 +1,28 @@
 @font-face {
   font-family: "Montserrat";
-  src: url(font/Montserrat-Black.ttf);
+  src: url(font/Montserrat-Regular.ttf);
 }
 body {
-  color: #239f65;
+  color: #484848;
   font-size: 22px;
   background-repeat: no-repeat;
 }
 h1 {
+  color: #540d6e;
   font-size: 50px;
+}
+h3 {
+  color: #f15bb5;
+  font-size: 30px;
+}
+
+h4 {
+  color: #fee440;
+  font-size: 25px;
+}
+h5 {
+  color: #000000;
+  font-size: 20px;
 }
 .ptb-6 {
   padding-top: 120px;
@@ -26,74 +40,31 @@ h1 {
 /* Barra de menú */
 
 .btn {
-  color: white;
-  font-size: 0.6em;
+  color: #000000;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 0.3em;
 }
 .btn:hover {
-  color: #2fd38c;
-  background-color: #dafffb;
+  color: #ffffff;
+  background-color: #f15bb5;
   border-radius: 0px;
 }
 .nav {
-  background-color: #07a686;
+  background-color: #00f5d4;
   justify-content: center;
   margin: 0px;
   padding: 0px;
   width: 100%;
 }
 
-/* Formulario de contacto */
-
-textarea,
-input {
-  font-size: 16px;
-  border: 1px solid #009f3a;
-}
-textarea {
-  min-height: 60px;
-}
-textarea:focus,
-input:focus {
-  text-indent: 6px;
-  border-color: #00c080;
-}
-.boton-contacto {
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  min-width: 100px;
-  background-color: #2abe8f;
-  border: 0px;
-}
-
-/* Fondos de las secciones */
-
-.bg-header-img {
-  background-image: url(img/Imagenes\ CV-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.bg-exp-lab {
-  background-image: url(img/Imagenes\ CV-04.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.bg-contact {
-  background-image: url(img/Imagenes\ CV-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+/* Perfil */
 
 .bg-skew {
-  color: #00856d;
+  color: #ffffff;
   padding-top: 50px;
-  padding-bottom: 50px;
-  background: #50ffc2;
+  padding-bottom: 75px;
+  background: #9b5de5;
   position: relative;
   z-index: 1;
 }
@@ -121,11 +92,14 @@ input:focus {
   transform: skew(0, -2deg);
   transform-origin: bottom right;
 }
+
+/* Formación */
+
 .bg-skew-dif {
-  color: #006885;
+  color: #ffffff;
   padding-top: 50px;
   padding-bottom: 50px;
-  background: #89ffe9;
+  background: #9b5de5;
   position: relative;
   z-index: 1;
 }
@@ -152,4 +126,49 @@ input:focus {
   background: inherit;
   transform: skew(0, -2deg);
   transform-origin: bottom right;
+}
+
+/* Formulario de contacto */
+
+textarea,
+input {
+  font-size: 16px;
+  border: 1px solid #f15bb5;
+}
+textarea {
+  min-height: 60px;
+}
+textarea:focus,
+input:focus {
+  text-indent: 6px;
+  border-color: #00f5d4;
+}
+.boton-contacto {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  min-width: 100px;
+  background-color: #f15bb5;
+  border: 0px;
+}
+
+/* Fondos de las secciones */
+
+.bg-header-img {
+  background-image: url(img/Imagenes\ CV-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bg-exp-lab {
+  background-image: url(img/Imagenes\ CV-04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bg-contact {
+  background-image: url(img/Imagenes\ CV-03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
