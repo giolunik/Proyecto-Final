@@ -1,10 +1,10 @@
-@font-face {
-  font-family: Monserrat;
-  src: url(font/Montserrat-Medium.ttf);
+font-family: "Montserrat", sans-serif;
+ {
+  font-size: 20px;
 }
 body {
   color: #484848;
-  font-size: 22px;
+  font-size: 20px;
   background-repeat: no-repeat;
 }
 h1 {
@@ -62,17 +62,17 @@ h5 {
 
 .bg-skew {
   color: #ffffff;
-  padding-top: 50px;
-  padding-bottom: 75px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background: #9b5de5;
-  position: relative;
+  position: static;
   z-index: 1;
 }
 .bg-skew::before {
   content: "";
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: static;
   z-index: -1;
   top: 0;
   left: 0;
@@ -84,7 +84,7 @@ h5 {
   content: "";
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: static;
   z-index: -1;
   top: 0;
   left: 0;
@@ -97,8 +97,8 @@ h5 {
 
 .bg-skew-dif {
   color: #ffffff;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background: #9b5de5;
   position: relative;
   z-index: 1;
@@ -107,7 +107,7 @@ h5 {
   content: "";
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: static;
   z-index: -1;
   top: 0;
   left: 0;
@@ -119,7 +119,7 @@ h5 {
   content: "";
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: static;
   z-index: -1;
   top: 0;
   left: 0;
