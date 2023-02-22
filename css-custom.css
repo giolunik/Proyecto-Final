@@ -48,13 +48,13 @@ h5 {
 .btn:hover {
   color: #ffffff;
   background-color: #f15bb5;
-  border-radius: 0px;
+  border-radius: 10px;
 }
 .nav {
   background-color: #00f5d4;
   justify-content: center;
   margin: 0px;
-  padding: 0px;
+  padding: 10px;
   width: 100%;
 }
 
